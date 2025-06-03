@@ -1,9 +1,9 @@
-// @ts-expect-error aaa
+
 import { useState } from 'react'
 import StudentItem from "./StudentItem.tsx";
 
 
-// @ts-expect-error aaa
+
 function StudentList({students}) {
     return (
         <>
@@ -17,7 +17,7 @@ function StudentList({students}) {
 
 
                 {
-                    // @ts-expect-error aaa
+
                     students.map((student, index) => (
                         <StudentItem
                             key={index}

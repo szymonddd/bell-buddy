@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #003366;
-  background-color: #cce6ff; /* Jasnoniebieskie tło */
+  background-color: #cce6ff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -46,7 +46,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #99ccff; /* Jasny niebieski */
+  background-color: #99ccff;
   color: #003366;
   cursor: pointer;
   transition: background-color 0.3s, border-color 0.3s;
@@ -60,7 +60,7 @@ button:focus-visible {
   outline: 3px solid #3399ff;
 }
 
-/* Styl dla konkretnego przycisku np. addstudent */
+
 button#addstudent,
 button.addstudent {
   background-color: #cce6ff;
@@ -76,7 +76,7 @@ button.addstudent:hover {
 @media (prefers-color-scheme: light) {
   :root {
     color: #002b55;
-    background-color: #e6f2ff; /* Bardziej pastelowe tło */
+    background-color: #e6f2ff;
   }
 
   a {
