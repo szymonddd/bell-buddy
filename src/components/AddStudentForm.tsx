@@ -1,7 +1,6 @@
 
 import { useState } from 'react'
 
-// @ts-expect-error aaa
 function AddStudentForm({ onAddStudent } ) {
 
     const [formData, setFormData] = useState({
@@ -10,13 +9,11 @@ function AddStudentForm({ onAddStudent } ) {
         studentSurname: '',
     })
 
-    //@ts-expect-error aaa
     const handleChange = (e) => {
         const { name, value } = e.target
         setFormData({ ...formData, [name]: value })
     }
 
-    //@ts-expect-error aaa
     const handleSubmit = (e) => {
         e.preventDefault()
 
